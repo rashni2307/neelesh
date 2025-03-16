@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Neelesh weds Srishti</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/faveicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("Sakura is starting...");
+            $('.sakura-falling').sakura();
+        });
+    </script>
+    <style>
+        .sakura-falling {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sakura-falling"></div>
+
+
+    <audio controls autoplay>
+        <source src = "/assets/mp3/RashSong.mp3" type = "audio/mpeg">
+    </audio>
+
+    <app-root></app-root>
+</body>
+
+</html>

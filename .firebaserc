@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "rashwedding-4308d",
+    "receptionInvite": "receptioninvite-62615",
+    "receptionRR": "receptioninvite-62615",
+    "weddig": "rashwedding-4308d",
+    "wedding": "rashwedding-4308d"
+  },
+  "targets": {
+    "rashwedding-4308d": {
+      "hosting": {
+        "website": [
+          "rashWedding"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
